@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: black;
+    padding: 15px;
+    gap: 25px;
+}
+        
+.div {
+    color:aliceblue;
+}
+
+.nav div{
+    margin: 0 5px;
+    color: white;
+    font-size: 20px;
+}
+
+.nav a{
+    margin: 0 5px;
+    color: white;
+    font-size: 18px;
+}
+
+.nav a:first-of-type {
+    margin-left: auto;
+}
+
+.notification {
+    position: relative;
+    margin: 0 5px 0 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.bell-icon {
+    font-size: 23px;
+}
+
+.notification-badge {
+    position: absolute;
+    top: -7px;
+    right: -9px;
+    min-width: 17px;
+    height: 17px;
+    padding: 0 4px;
+    border-radius: 9px;
+    background-color: red;
+    color: white;
+    font-size: 11px;
+    line-height: 17px;
+    text-align: center;
+}
+
+.outside {
+    background-image: url("wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formm {
+    position: relative;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 35px 25px 25px;
+    width: 320px;
+    border-radius: 18px;
+}
+
+.inp {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    padding: 11px;
+    border: 1px solid #b8c8d1;
+    border-radius: 8px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #2076c7;
+}
+
+.password-box {
+    position: relative;
+    margin-top: 10px;
+}
+
+.password-box input {
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 35px;
+}
+
+.heart-icon {
+    color: red;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.password-note {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 43px;
+    background-color: white;
+    padding: 7px 9px;
+    border-radius: 6px;
+    font-size: 12px;
+    z-index: 2;
+}
+
+.password-box:hover .password-note {
+    display: block;
+}
+
+.forgot-password {
+    margin-top: 8px;
+    color: darkblue;
+    font-size: 14px;
+    text-align: right;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #78d92b;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-button {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: black;
+    font-size: 25px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.signup-text {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.signup-link {
+    padding: 3px 6px;
+    border-radius: 4px;
+    background-color: yellow;
+    color: darkblue;
+    font-weight: bold;
+}
